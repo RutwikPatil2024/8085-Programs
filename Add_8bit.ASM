@@ -1,0 +1,8 @@
+LDA 0;
+MOV H,A;
+LDA 1;
+ADD H;
+MOV L,A;
+MVI A,00;
+SHLD 2;
+HLT;
